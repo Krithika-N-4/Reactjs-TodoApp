@@ -1,12 +1,28 @@
-# React + Vite
+# React To-Do App with Local Storage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and persistent To-Do list application built with React. Keep track of your tasks with full CRUD functionality, saving all your data directly in your browser's local storage.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Create:** Easily add new tasks to your list.
 
-## Expanding the ESLint configuration
+- **Read:** View all your pending and completed tasks in a clear layout.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Update:** Edit existing tasks or mark them as complete.
+
+- **Delete:** Remove tasks you no longer need.
+
+- **Persistent Storage:** Your to-do list is automatically saved to your browser's local storage, so your tasks will be there when you return.
+
+
+## How It Works
+
+1. **Add a Task:** Type a new task into the input field and press Enter or click the "Add" button.
+
+2. **Mark as Complete:** Click the checkbox next to a task to toggle its completion status.
+
+3. **Edit a Task:** Click the edit icon to modify the text of a task.
+
+4. **Delete a Task:** Click the delete icon to permanently remove a task from your list.
+
+All changes are saved in real-time.
