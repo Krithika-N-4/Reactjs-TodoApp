@@ -2,7 +2,7 @@
 
 A clean and persistent To-Do list application built with React. Keep track of your tasks with full CRUD functionality, saving all your data directly in your browser's local storage.
 
-Features
+## Features
 
 - **Create:** Easily add new tasks to your list.
 
